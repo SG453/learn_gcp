@@ -4,6 +4,12 @@ A list of Google Cloud Platform (GCP) shell commands with examples
 ## Setup up a Cloud Shell Enivronment
 Every time you close Cloud Shell and reopen it, a new VM is allocated. You can create a file to set the value so that you won't have to enter the command each time Cloud Shell is cycled. This can be stored in the Cloud Shell environment as you have 5 GB of persistent disk storage ($HOME dir).
 
+`gcloud auth list` // to authorize gcloud shell.  
+
+`gcloud config setcompute/zone us-east1-b` // to set the default zone.  
+
+`gcloud config setcompute/region us-east1` // to set the default region.  
+
 ### Create a persistent state in Cloud Shell
 1. List the available regions
 
